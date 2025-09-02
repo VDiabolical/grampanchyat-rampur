@@ -5,6 +5,9 @@ import { useTranslation } from "@/contexts/TranslationContext";
 import img1 from "@/assets/img1.jpg";
 import img2 from "@/assets/img2.jpg";
 import img3 from "@/assets/img3.jpg";
+import img4 from "@/assets/img4.jpg";
+import img5 from "@/assets/img5.jpg";
+import img6 from "@/assets/img6.jpg";
 
 const Images = () => {
   const { t } = useTranslation();
@@ -24,6 +27,21 @@ const Images = () => {
       src: img3,
       alt: "Rural landscape",
       title: "Tree plantation"
+    },
+    {
+      src: img4,
+      alt: "Rural landscape",
+      title: "Tree plantation"
+    },
+    {
+      src: img5,
+      alt: "Village development project",
+      title: "Gram Sabha"
+    },
+    {
+      src: img6,
+      alt: "Village development project",
+      title: "Eco-Friendly Raksha Bandhan"
     },
     
   ];
